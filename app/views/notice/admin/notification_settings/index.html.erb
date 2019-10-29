@@ -40,7 +40,7 @@
         <% end %>
       </td>
       <td>
-        <%= simple_format(notification_setting.counters) %>
+        <%= simple_format_hash(notification_setting.counters) %>
       </td>
       <td>
         <%= link_to 'Show', admin_notification_setting_path(notification_setting), class: 'ui blue label' %>
